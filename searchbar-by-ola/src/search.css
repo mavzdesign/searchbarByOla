@@ -1,0 +1,44 @@
+.search_table th,tr>td{
+    padding: 20px;
+}
+.search_table tr{
+    text-align: center;
+}
+.search{
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aquamarine;
+    height: 100vh;
+    gap: 20px;
+}
+.search section{
+    height: 500px;
+
+}
+
+
+.search_table thead , th{
+    border: 1px solid gray;
+    /* background-color: beige; */
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0.5rem;
+}
+.search_table td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    
+  }
+.search-input>input{
+    padding: 10px  20px;
+    width: 400px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+
+  }
+
